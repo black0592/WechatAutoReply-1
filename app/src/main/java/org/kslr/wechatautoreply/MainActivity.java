@@ -11,6 +11,9 @@ import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity {
 
+    private boolean canGet = false;
+    private boolean enableKeyguard = true;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
